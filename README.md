@@ -1,10 +1,10 @@
-AIM:
+## AIM:
 Natural sampling is a technique where the continuous-time signal is multiplied by a periodic impulse train, resulting in a series of samples at specific time intervals. The sampled signal is a reconstruction of the original signal at these discrete points. This approach preserves the amplitude of the signal at the sampling instants while discarding information between them.
 
-Components Required:
+## Components Required:
 python IDE with Numpy and Scipy
 
-Program:
+## Program:
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -83,9 +83,9 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
-Output Waveforms:
+## Output Waveforms:
 ![WhatsApp Image 2025-03-28 at 10 47 42_68c5a88d](https://github.com/user-attachments/assets/af934e1c-5019-462d-8900-a198270f3960)
 
 
-Result
+## Result
 The continuous sine wave is sampled at regular intervals, where the sampling signal multiplies the continuous signal, resulting in discrete samples. The output shows how the continuous signal is sampled at specified intervals. These discrete samples represent the continuous signal at the sampling times.
